@@ -13,14 +13,15 @@
     
         Channel Access Token:
         <br />
-        <asp:TextBox ID="txbToken" runat="server" Width="526px"></asp:TextBox>
+        <asp:TextBox ID="txbToken" runat="server" TextMode="MultiLine" Width="526px"></asp:TextBox>
+        <br />
         <br />
         to User :<br />
 &nbsp;<asp:TextBox ID="TxbUserId" runat="server" Width="517px"></asp:TextBox>
         <br />
         <br />
         <br />
-        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="發送" />
         <br />
         <br />
     
